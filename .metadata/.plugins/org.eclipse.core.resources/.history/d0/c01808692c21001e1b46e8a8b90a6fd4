@@ -1,0 +1,13 @@
+package loops_program;
+
+public class Even_num_for_loop {
+	
+	public static void main(String[] args) {
+	int j = 50;
+	
+	
+	for(int k=2; k<=50; j+=2) {
+		System.out.println(k+ " ");
+	}
+}
+}

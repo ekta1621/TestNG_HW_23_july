@@ -1,0 +1,10 @@
+package loops_program;
+
+public class Foor_loop_3_reverse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

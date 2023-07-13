@@ -1,0 +1,30 @@
+package automation_maven_practices;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Open_windows {
+
+	public static void main(String[] args) {
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		
+		openNewTab(driver, "http://dantri.com.vn/phap-luat.htm", 1);
+        openNewTab(driver, "http://dantri.com.vn/xa-hoi.htm", 2);
+        openNewTab(driver, "http://dantri.com.vn/the-gioi.htm", 3);
+        openNewTab(driver, "http://dantri.com.vn/the-thao.htm", 4);
+        openNewTab(driver, "http://dantri.com.vn/giao-duc-khuyen-hoc.htm", 5);
+	}
+
+	private static void openNewTab(WebDriver driver, String string, int i) {
+		((JavascriptExecutor) driver).executeScript("window.open()");
+        ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
+        String position;
+		String url;
+		System.out.println("tabs : " + tabs.size() + " >position: " + position + " >\t" + url);
+        driver.switchTo().window(tabs.get(position));
+        driver.get(url);
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+package automation_maven_practices;
+
+import java.util.ArrayList;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class Open_windows {
+
+	public static void main(String[] args) {
+
+		 ChromeOptions driver = new ChromeOptions();
+		driver.manage().window().maximize();
+		driver.get("https://facebook.com");
+		driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL + "t"); // Open a new tab
+		ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles()); // Get all open tabs
+		driver.switchTo().window(tabs.get(1)); // Switch to the new tab
+		 driver.get("https://www.amazon.ca"); // Open the second website
+		 driver.quit();
+	}
+
+}
