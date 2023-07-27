@@ -15,6 +15,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\ektap\eclipse-workspace\my_first_maven_project"/>
 			<item value="C:\Users\ektap\eclipse-workspace"/>
 			<item value="C:\Users\ektap\eclipse-workspace\CanadaJune2023Batch\src\main\java\com\day4\java\Day_Homework.java"/>
 		</list>
@@ -40,6 +41,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.learning.automation.Automation_Homework"/>
 			<item value="com.learning.automation.JAVA_HOMEWORK"/>
 			<item value="com.learning.automation.My_java_practice"/>
 			<item value="com.learning.automation.automation_maven_practices"/>
@@ -50,6 +52,7 @@
 			<item value="com.java17_selenium"/>
 		</list>
 		<list key="artifactId">
+			<item value="Automation_Homework"/>
 			<item value="JAVA_HOMEWORK"/>
 			<item value="My-java-practice"/>
 			<item value="automation_maven_practices"/>
