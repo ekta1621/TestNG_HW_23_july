@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng_hw.Reg">
+      <class name="test_reg_one.Test_reg_one_one">
         <methods>
-          <include name="teardown"/>
-          <include name="Register3"/>
-          <include name="Login"/>
-          <include name="Register2"/>
+          <include name="test1_one" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- testng_hw.Reg -->
+      </class> <!-- test_reg_one.Test_reg_one_one -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

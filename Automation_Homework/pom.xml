@@ -6,7 +6,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.learning.automation</groupId>
-	<artifactId>Automation_Homework</artifactId>
+	<artifactId>TestNg_Automation_Homework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<name>Automation_Homework</name>

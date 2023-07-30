@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test_Data_provider_prac">
+  <test thread-count="5" name="Test_Data_provider_prac">
+    <classes>
+      <class name="Dataprovider_TestNG.Data_provider_Register_1"/>
+      <class name="Dataprovider_TestNG.Data_provider_Register_2"/>
+      <class name="Dataprovider_TestNG.Data_provider_Register_3"/>
+    </classes>
+  </test> <!-- Test_Data_provider_prac -->
+</suite> <!-- Test_Data_provider_prac -->
